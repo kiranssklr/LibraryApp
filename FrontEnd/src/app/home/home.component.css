@@ -1,0 +1,96 @@
+/* override bootstrap styles */
+@import url('http://fonts.googleapis.com/css?family=Oswald:300,400:latin,latin-ext');
+
+.img-circle{
+    border-radius: 50%;
+}
+
+body {
+  /* padding-top:50px; */
+  color:#646464;
+}
+
+h1,h2,h3,.highlight,.navbar a,#masthead h4 {
+  font-family:Book Antiqua,'Oswald',arial narrow,sans-serif;
+}
+
+.container{
+   
+    width: 1000px;
+    margin-left: 18%;
+}
+
+.testing{
+  background-color: #eaeaea;
+  box-shadow: 2px 5px 5px rgb(233, 233, 233);
+}
+
+.caret {
+  color:#fff;
+}
+
+.panel-body{
+  
+    text-align: center;
+    line-height: 30px;
+}
+
+.panel {
+  border-color:transparent;
+  border-radius:0;
+}
+
+.thumbnail {
+  margin-bottom:8px;
+}
+
+.img-container {
+  overflow:hidden;
+  height:170px;
+}
+
+.img-container img {
+  min-width:280px;
+  min-height:180px;
+  max-width:380px;
+  max-height:280px;
+}
+
+.txt-container {
+  overflow:hidden;
+  height:100px;
+}
+
+.panel .lead {
+  overflow:hidden;
+  height:90px;
+}
+
+.label-float{
+  margin:0 auto;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width:100%;
+  opacity:.9;
+  padding:6px;
+  color:#fff;
+}
+    
+.btn-twitter {background-color:#4099FF;color:#fff;}
+.btn-facebook {background-color:#3B5998;color:#fff;}
+.btn-google-plus {background-color:#d34836;color:#fff;}
+
+.btn-twitter:hover {background-color:#3088FF;color:#62BBFF;}
+.btn-facebook:hover {background-color:#2A4998;color:#4C6BBA;}
+.btn-google-plus:hover {background-color:#C23836;color:#E45A58;}
+
+.btn-group{
+}
+
+.btn-lg {
+  width: 350px;
+  height: 50px;
+  padding: 15px;
+  text-decoration: none;
+}

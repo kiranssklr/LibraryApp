@@ -1,0 +1,216 @@
+/*override bootstrap styles*/
+@import url('http://fonts.googleapis.com/css?family=Oswald:300,400:latin,latin-ext');
+
+.navbar-form input, .form-inline input {
+  width:auto;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li{
+  float : left;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding-top: 8px;
+  padding-left: 35px;
+  text-decoration: none;
+}
+
+.navbar-header{
+  float: left;
+  min-width: auto;
+  padding-left: 2em;
+  min-height: 75px;
+  margin-top: 0px;
+}
+
+.navbar-header a{
+    font-size: 15px;
+    float: left;
+    padding-top: 20px;
+}
+
+.container{
+  min-height: 75px;
+  margin-bottom: 0%;
+  margin-top: 0px;
+}
+
+.banner{
+  min-height: 450px;
+  background-color: #fcd999;
+  background-image: url('../../assets/images/bgimg.jpg');
+  background-repeat: no-repeat;
+  background-size: 1600px 450px;
+}
+
+body {
+  /* padding-top:50px; */
+  color:#646464;
+  background-color:#efefef;
+}
+
+h1,h2,h3,.highlight,.navbar a,#masthead h4 {
+  font-family:Book Antiqua,'Oswald',arial narrow,sans-serif;
+}
+
+footer {
+  margin-top:40px;
+  padding-top:40px;
+  padding-bottom:40px;
+  background-color:#cecece; 
+}
+
+
+#masthead {
+  min-height:450px;
+  background-color: #f2850d;
+  color:#aaaacc;  
+  background-image: url("/images/bgimg.jpg");  
+}
+
+
+#masthead h1 {
+  font-size: 55px;
+  color:#fefeff;
+  text-shadow: 3px 3px  black;
+}
+
+
+#topPanel {
+  padding-top:0px;
+  padding-left:22px;
+  padding-right:22px;
+}
+#topPanel .panel-body {
+  padding-top:0px;
+}
+
+.navbar.affix {
+  position:fixed;
+  top:0;
+  width:100%;
+}
+
+.top-spacer {
+  background-color:#ffffff;
+  height:40px;
+}
+
+a,a:hover {
+  color:#223344;
+  text-decoration:none;
+}
+
+.icon-bar {
+  background-color:#fff;
+}
+
+@media screen and (min-width: 768px) {
+  #masthead h1 {
+    font-size: 80px;
+  }
+}
+
+.navbar-right{
+  padding-top: 0em;
+  font-size: 30px;
+  text-align: right;
+  padding-right: 30px;
+}
+
+.navbar-bright {
+  background-color: #c2690a;
+  color:#fff;
+  margin-bottom: 0;
+  border-width: 0;
+  text-shadow: 2px 2px #582f02;
+}
+
+.navbar-bright a, .navbar-bright .navbar-brand, #masthead h4 {
+  color:#fff;
+  font-size:20px;
+  letter-spacing:.08em;
+}
+
+.navbar-bright li > a:hover {
+  color: #fcd182;
+}
+
+.dropdown-menu {
+  min-width: 75px;
+}
+
+.caret {
+  color:#fff;
+}
+
+.navbar-toggle {
+  color:#fff;
+  border-width:0;
+}
+
+.navbar-toggle:hover {
+  background-color:#fff;
+}
+
+.panel {
+  border-color:transparent;
+  border-radius:0;
+}
+
+.thumbnail {
+  margin-bottom:8px;
+}
+
+.img-container {
+  overflow:hidden;
+  height:170px;
+}
+
+.img-container img {
+  min-width:280px;
+  min-height:180px;
+  max-width:380px;
+  max-height:280px;
+}
+
+.txt-container {
+  overflow:hidden;
+  /* height:100px; */
+}
+
+.panel .lead {
+  overflow:hidden;
+  height:90px;
+}
+
+.label-float{
+  margin:0 auto;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width:100%;
+  opacity:.9;
+  padding:6px;
+  color:#fff;
+}
+    
+.btn-twitter {background-color:#4099FF;color:#fff;}
+.btn-facebook {background-color:#3B5998;color:#fff;}
+.btn-google-plus {background-color:#d34836;color:#fff;}
+
+.btn-twitter:hover {background-color:#3088FF;color:#62BBFF;}
+.btn-facebook:hover {background-color:#2A4998;color:#4C6BBA;}
+.btn-google-plus:hover {background-color:#C23836;color:#E45A58;}
+
+

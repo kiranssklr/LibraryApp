@@ -1,0 +1,181 @@
+/* override bootstrap styles */
+@import url('http://fonts.googleapis.com/css?family=Oswald:300,400:latin,latin-ext');
+
+.img-circle{
+    border-radius: 50%;
+}
+
+body {
+  /* padding-top:50px; */
+  color:#646464;
+}
+
+h1,h2,h3,.highlight,.navbar a,#masthead h4 {
+  font-family:Book Antiqua,'Oswald',arial narrow,sans-serif;
+}
+
+.container{   
+    min-width: 70%;
+    margin:0px 15% 0px 15%;
+    background-color: #ececec;
+    box-shadow: 2px rgb(230, 230, 230);
+}
+
+.testing{
+  background-color: #eaeaea;
+  box-shadow: 2px 5px 5px rgb(233, 233, 233);
+}
+
+.caret {
+  color:#fff;
+}
+
+.panel-body{
+    text-align: left;
+    line-height: 30px;
+    padding-left: 50px;
+}
+
+.panel {  
+  /* margin-left: 50px; */
+  border-color:transparent;
+  border-radius:0;
+}
+.panel hr{
+  color: #f7f3f3;
+  align-items: left;
+  width: 95%;
+}
+.row-main .text-center{
+  width: 100px;
+  height: 200px;
+  float: left;
+  padding-right: 20px;
+}
+.row-main{
+  height: 250px;
+}
+
+.thumbnail {
+  margin-bottom:8px;
+}
+
+.img-container {
+  overflow:hidden;
+  height:170px;
+}
+
+.img-container img {
+  min-width:280px;
+  min-height:180px;
+  max-width:380px;
+  max-height:280px;
+}
+
+.txt-container {
+  overflow:hidden;
+  height:100px;
+}
+
+.panel .lead {
+  overflow:hidden;
+  height:90px;
+}
+
+.label-float{
+  margin:0 auto;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width:100%;
+  opacity:.9;
+  padding:6px;
+  color:#fff;
+}
+    
+.btn-twitter {background-color:#4099FF;color:#fff;}
+.btn-facebook {background-color:#3B5998;color:#fff;}
+.btn-google-plus {background-color:#d34836;color:#fff;}
+
+.btn-twitter:hover {background-color:#3088FF;color:#62BBFF;}
+.btn-facebook:hover {background-color:#2A4998;color:#4C6BBA;}
+.btn-google-plus:hover {background-color:#C23836;color:#E45A58;}
+
+.btn-group{
+}
+
+.btn-lg {
+  width: 350px;
+  height: 50px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+
+
+/* styles for login and signup pages */
+.mainSignIn{
+    background-color: rgb(235, 235, 235);
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;  
+    border-radius: 10px;
+    align-items: center;
+  }
+  
+  .mainSignIn p{
+    font-size: 29px;
+    color:rgb(192, 90, 6);
+    font-weight: bold;
+  }
+  .mainSignIn #fileInput{
+    margin-left: 70px;
+    /* align-items: center; */
+  }
+  .innerLogin{
+    text-align: center;
+  }
+  .un, .pass, .submit {
+    width: 70%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgb(167, 165, 165);
+    margin-left: 0px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    }
+    .submit{
+      font-weight: bold;
+      font-size: large;
+      background-color: rgb(25, 197, 209);
+      border: none;
+      box-shadow:0px 0px 5px cadetblue;
+    }
+  .mainSignIn a{
+    font-size: medium;
+    color: #3088FF;
+    text-decoration: none;
+  }
+  .mainSignIn a:hover{
+    color: #2A4998;
+  }
+  
+  .alertLabel{
+    font-size:smaller;
+    color: red;
+    min-width: 70%;
+  }
+
+  /* for error message in login form */
+  .has-error input[type="email"],
+.has-error input[type="password"] {
+    border-color: rgb(216, 12, 12);
+    color: rgb(230, 14, 14);
+}
